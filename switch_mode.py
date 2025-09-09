@@ -18,7 +18,7 @@ def toggle_state(pin):
     global state
     state = not state
     
-button.irq(trigger=Pin.IRQ_RISING, handler=toggle_state)
+button.irq(trigger=Pin.IRQ_FALLING, handler=toggle_state)
 
 # LOOP
 
