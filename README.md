@@ -54,8 +54,11 @@ Use $D_{max}$ as the maximal value for PWM signal's duty cycle.
 Please write out the equation of the duty cycle's **increment** value, $s$, below :point_down:
 
 > d_max = 65536 (d for simplicity)
+
 > T = 2 => \frac{2}{256} sleep
+
 > n = \frac{65536}{256} = 256
+
 > s = \frac{d}{n} = 256  
 
 > [!TIP]
