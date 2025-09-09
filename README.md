@@ -57,9 +57,9 @@ Please write out the equation of the duty cycle's **increment** value, $s$, belo
 
 > T = 2 => \frac{2}{256} sleep
 
-> n = \frac{65536}{256} = 256
+> n = 256 (256 steps each being 256 units)
 
-> s = \frac{d}{n} = 256  
+> s = \frac{d}{n} = \frac{65536}{256} = 256  
 
 > [!TIP]
 > - Writing mathematical expressions [guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
